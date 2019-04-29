@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://localhost:3000/skills -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link rel="stylesheet" href="./Krit Goyal_files/materialize.min.css">
+    <link href="./Krit Goyal_files/icon" rel="stylesheet">
+    <title>Krit Goyal</title>
+  <style type="text/css">body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main-content {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.sticky-nav {
+  position: fixed;
+  z-index: 999;
+}
+
+.list-inline li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.card-img {
+  object-fit: cover;
+  height:200px;
+  overflow: hidden;
+}
+
+.profile-img {
+  margin : 50px;
+  object-fit: cover;
+  width:250px;
+  height:250px;
+  overflow: hidden;
+}
+
+.theme-bg {
+  background: #37474f;
+}
+
+.padding-top-left-20 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.padding-40 {
+  padding-top: 40px;
+}
+
+.padding-80 {
+  padding: 80px;
+}
+
+.test {
+  display: flex;
+}
+
+.curved-edges {
+  border-radius: 8px;
+}
+
+.rounded-edges {
+  border-radius: 25px;
+}</style><style type="text/css">.timeline--wrapper {
+  width: calc(100% - 24px);
+  padding: 12px;
+}
+.timeline {
+  width: 100%;
+  max-width: 800px;
+  padding: 15px 0 0  0;
+  position: relative;
+  /* box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2); */
+  margin: 50px auto;
+}
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: calc(33% + 6px);
+  bottom: 0px;
+  width: 0px;
+  border: 2px solid;
+}
+.timeline:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .timeline:before {
+    left: calc(1% + 6px);
+  }
+}
+</style><style type="text/css">.body-container {
+  position: relative;
+  margin-left: 30px;
+}
+.timeline-item--no-children .body-container {
+  background: transparent;
+  box-shadow: none;
+}
+.body-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.timeline-item-date {
+  position: absolute;
+  top: -12px;
+  left: 0;
+  background: #ddd;
+  padding: 1px;
+  -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+  height: 52px;  
+  box-sizing: border-box;
+  width: 90%;
+}
+.timeline-item-dateinner {
+  background: #e86971;
+  color: #fff;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  border-right-color: transparent;
+  -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+  height: 50px;
+  width: 100%;
+  display: block;
+  line-height: 52px;
+  text-indent: 15px;
+}
+
+.timeline-item--no-children .body-container::before {
+  display: none;
+}
+.entry {
+  clear: both;
+  text-align: left;
+  position: relative;
+}
+.timeline--animate .entry .is-hidden {
+  visibility: hidden;
+}
+.timeline--animate .entry .bounce-in {
+  visibility: visible;
+  animation: bounce-in 0.4s;
+}
+.entry .title {
+  margin-bottom: 0.5em;
+  float: left;
+  width: 34%;
+  position: relative;
+  height: 32px;
+}
+.entry .title:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 4px solid;
+  background-color: #ffffff;
+  border-radius: 100%;
+  top: 15%;
+  right: -8px;
+  z-index: 99;
+  box-sizing: content-box;
+}
+.entry .body {
+  margin: 0 0 3em;
+  float: right;
+  width: 66%;
+  color: #333;
+}
+.entry .body p {
+  line-height: 1.4em;
+}
+.entry .body h1, .entry .body h2, .entry .body h3, .entry .body h4, .entry .body h5, .entry .body h6 {
+  margin: 0;
+}
+.entry .body p:first-child {
+  margin-top: 0;
+  font-weight: 400;
+}
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .entry .title {
+    float: left;
+    width: 70%;
+  }
+  .timeline-item-date {
+    margin-left: 30px;
+  }
+  .entry .title:before {
+    top: 15%;
+    left: 3px;
+    right: auto;
+    z-index: 99;
+  }
+  .entry .body {
+    margin: 20px 0 3em;
+    float: right;
+    width: 99%;
+  }
+}
+</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><nav class="nav-wrapper theme-bg sticky-nav"><div class="container"><a aria-current="page" class="brand-logo active" href="http://localhost:3000/">Krit Goyal</a><ul class="right"><li><a aria-current="page" class="active" href="http://localhost:3000/">About</a></li><li><a href="http://localhost:3000/worknedu">Work and Education</a></li><li><a href="http://localhost:3000/projects">Projects</a></li><li><a aria-current="page" class="active" href="http://localhost:3000/skills">Skills</a></li></ul></div></nav><div class="main-content grey lighten-4"><div class="padding-80 center"><div class="row"><div class="container"><div class="container hoverable curved-edges col l6"><h4 class="blue-grey-text"><b>Scripting</b></h4><div><h4 class="grey-text text-darken-2">Java</h4><div class="progress"><div class="determinate" style="width: 90%;"></div></div></div><div><h4 class="grey-text text-darken-2">Python</h4><div class="progress"><div class="determinate" style="width: 60%;"></div></div></div><div><h4 class="grey-text text-darken-2">C#</h4><div class="progress"><div class="determinate" style="width: 70%;"></div></div></div></div><div class="container hoverable curved-edges col l6"><h4 class="blue-grey-text"><b>Web Dev Frameworks</b></h4><div><h4 class="grey-text text-darken-2">PHP</h4><div class="progress"><div class="determinate" style="width: 70%;"></div></div></div><div><h4 class="grey-text text-darken-2">React</h4><div class="progress"><div class="indeterminate"></div></div></div></div><div class="container hoverable curved-edges col l6"><h4 class="blue-grey-text"><b>Mobile Dev</b></h4><div><h4 class="grey-text text-darken-2">Android</h4><div class="progress"><div class="determinate" style="width: 90%;"></div></div></div><div><h4 class="grey-text text-darken-2">React-native</h4><div class="progress"><div class="indeterminate"></div></div></div></div><div class="container hoverable curved-edges col l6"><h4 class="blue-grey-text"><b>Others</b></h4><div><h4 class="grey-text text-darken-2">git</h4><div class="progress"><div class="determinate" style="width: 80%;"></div></div></div><div><h4 class="grey-text text-darken-2">Unity</h4><div class="progress"><div class="determinate" style="width: 60%;"></div></div></div></div></div></div></div></div><footer class="page-footer theme-bg"><div class="container"><div class="center"><h5 class="white-text">Reach me @</h5><div class="row center"><div class="col l6 s12"><a href="mailto:goyal.kri@husky.neu.edu" target="_blank" rel="noopener noreferrer"><i class="material-icons medium white-text">email</i></a><br><span class="white-text">goyal.kri@husky.neu.edu</span></div><div class="col l6 s12"><a href="https://goo.gl/maps/BMQaCwwZGupQ6jGA6" rel="noopener noreferrer" target="_blank"><i class="material-icons medium white-text">location_on</i></a><br><span class="white-text">Boston, MA</span></div><ul class="list-inline"><li><a href="https://github.com/krit95" target="_blank" rel="noopener noreferrer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFNTE3OEEyRTk5QTAxMUUyOUExNUJDMTA0NkE4OTA0RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFNTE3OEEyRjk5QTAxMUUyOUExNUJDMTA0NkE4OTA0RCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkU1MTc4QTJDOTlBMDExRTI5QTE1QkMxMDQ2QTg5MDREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkU1MTc4QTJEOTlBMDExRTI5QTE1QkMxMDQ2QTg5MDREIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+FYrpWAAABrNJREFUeNrkW2ls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" alt="github account"></a></li><li><a href="https://www.linkedin.com/in/krit-goyal-5096761a/" target="_blank" rel="noopener noreferrer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAABK0lEQVR42u3YvUoDQRiF4VMoCAoWgaCQ1juwDJYBmdZLEAvbNHbprMVGtkmT5Cpio+0U3oRFUFJYBAkir4UQsrObsHHnI8TsKb9heNj5Y3Yk4fBMiZ0pHicJh2Wc8KaAl8HgpAZKGGcNwJg+HfqMbYAhdUmSqDOMD4yoaRZqjGIDiVIhiQ20A6C9cV9gPgfmq+h3H/To0LPaB//hqCied57ockuC57sgECzTnCpXADxzwc5ctcEdX7GAT66VE5p5y3p14JJzLQinTMoDB1qS7OGyMrA87PEaCeCYFmfsZ+r3EQCOGMxOr1bQ5koD7PIy12VCI9V6Uh64CebxIdV6WB54zFyucnv9HXgLgI/YQHa3VkAFVEAFRAW27GZXEDD/ETd/SrB+DLF+zvkBReqHG1X9kRsAAAAASUVORK5CYII=" alt="linkedin account"></a></li></ul></div></div></div><div class="footer-copyright"><div class="container center">© 2019 Krit Goyal</div></div></footer></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./Krit Goyal_files/bundle.js"></script><script src="./Krit Goyal_files/0.chunk.js"></script><script src="./Krit Goyal_files/main.chunk.js"></script><script src="./Krit Goyal_files/main.bbcf225c7ef284ca66a5.hot-update.js"></script>
+
+</body></html>
