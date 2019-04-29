@@ -12,3 +12,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.main-content {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.sticky-nav {
+  position: fixed;
+  z-index: 999;
+}
+
+.list-inline li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.card-img {
+  object-fit: cover;
+  height:200px;
+  overflow: hidden;
+}
+
+.profile-img {
+  margin : 50px;
+  object-fit: cover;
+  width:250px;
+  height:250px;
+  overflow: hidden;
+}
+
+.theme-bg {
+  background: #37474f;
+}
+
+.padding-left-20 {
+  padding-left: 20px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.curved-edges {
+  border-radius: 8px;
+}
+
+.rounded-edges {
+  border-radius: 25px;
+}

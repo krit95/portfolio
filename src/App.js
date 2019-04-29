@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Navbar from './components/Navbar';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
+import About from './components/About';
+import WorkAndEducation from './components/WorkAndEducation';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import NotFound from './components/NotFound';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <div className="App">
+        <Navbar />
+        <div className = "main-content grey lighten-4">
+            <Switch>
+              <Route exact path = "/" component = {About} />
+              <Route path = "/worknedu" component = {WorkAndEducation} />
+              <Route path = "/projects" component = {Projects} />
+              <Route path = "/*" component = {NotFound} />
+            </Switch>
+          </div>
+          <Contact />
+        </div>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;
