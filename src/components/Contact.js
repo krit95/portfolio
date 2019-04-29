@@ -8,7 +8,7 @@ class Contact extends Component {
             <footer className = "page-footer theme-bg">
                 <div className="container">
                     <div className="center">
-                        <h5 className="white-text">Contact details</h5>
+                        <h5 className="white-text">Reach me @</h5>
                         <div className = "row center">
                             <div className="col l6 s12">
                                 <a href="mailto:goyal.kri@husky.neu.edu" target = "_blank" rel="noopener noreferrer"><i className="material-icons medium white-text">email</i></a>

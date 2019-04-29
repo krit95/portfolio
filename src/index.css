@@ -31,6 +31,11 @@ code {
   padding-right: 20px;
 }
 
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .card-img {
   object-fit: cover;
   height:200px;
@@ -49,12 +54,28 @@ code {
   background: #37474f;
 }
 
-.padding-left-20 {
+.padding-top-left-20 {
+  padding-top: 20px;
   padding-left: 20px;
 }
 
 .padding-20 {
   padding: 20px;
+}
+
+.padding-40 {
+  padding-top: 40px;
+}
+
+.padding-80 {
+  padding: 80px;
+}
+
+.test {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
 }
 
 .curved-edges {
