@@ -54,6 +54,14 @@ code {
   background: #37474f;
 }
 
+.margin-20 {
+  padding: 10px;
+}
+
+.hover-highlight :hover{
+  color: lightgrey;
+}
+
 .padding-top-left-20 {
   padding-top: 20px;
   padding-left: 20px;
@@ -61,6 +69,10 @@ code {
 
 .padding-20 {
   padding: 20px;
+}
+
+.padding-top-5 {
+  padding-top: 5px;
 }
 
 .padding-40 {

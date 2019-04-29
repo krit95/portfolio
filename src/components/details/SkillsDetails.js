@@ -19,15 +19,23 @@ const SkillsDetails = [
         ]
     }, {
         id: "2",
-        category_name: "Web Dev Frameworks",
+        category_name: "Web Dev",
         skills: [
             {
-                id: "2_1",
-                name: "PHP",
-                level: "70%"
+                id: "2_3",
+                name: "HTML5",
+                level: "90%"
+            }, {
+                id: "2_4",
+                name: "CSS",
+                level: "75%"
             }, {
                 id: "2_2",
                 name: "React"
+            }, {
+                id: "2_1",
+                name: "PHP",
+                level: "70%"
             }
         ]
     }, {

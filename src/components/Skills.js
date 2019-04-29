@@ -13,7 +13,7 @@ const Skills = () => {
                             const skillClass = skill.level ? "determinate" : "indeterminate";
                             return (
                                 <div key = { skill.id }>
-                                    <h4 className="grey-text text-darken-2">
+                                    <h4 className="blue-grey-text">
                                         { skill.name }
                                     </h4>
                                     <div  className = "progress">
@@ -30,7 +30,7 @@ const Skills = () => {
         <div className="padding-80 center">
             {/* <h3 className="header teal-text text-darken-4">Skills</h3> */}
             <div className="row">
-                <div className="container test">
+                <div className="container">
                     { SkillsBlocks }
                 </div>
             </div>

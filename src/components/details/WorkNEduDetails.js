@@ -45,7 +45,7 @@ const WorkNEduDetails = [
     }, {
         id : "005",
         type: "work",
-        period: "June 2016 - Dec 2016",
+        period: "June - Dec 2016",
         title: "Oracle, Bangalore, India",
         subtitle: "Software Development Intern",
         secondary_text: "REST APIs, Java, Oracle JET(knockout js, jQuery, jQuery UI, promise), ADF, Swagger",
@@ -57,7 +57,7 @@ const WorkNEduDetails = [
     }, {
         id : "006",
         type: "work",
-        period: "June 2016 - Nov 2016",
+        period: "June - Nov 2016",
         title: "SilicoSense Technologies, New Delhi, India",
         subtitle: "Software Development Intern",
         secondary_text: "REST APIs, PHP, PDO, mySQL, python, sqlite, bs4",

@@ -2,7 +2,7 @@ const ProjectsDetails = [
     {
         id : "004",
         img_src : "images/rts_1.png",
-        period: "Mar 2019 - Apr 2019",
+        period: "Mar - Apr 2019",
         title: "Resource and Colony Management Simulator",
         subtitle: "Game AI course, NEU",
         keywords: "A*, Search-based classical planner, Iterative Depth A*, Memory Bound A*, Unity, C#",
@@ -30,7 +30,7 @@ const ProjectsDetails = [
     }, {
         id : "002",
         img_src : "images/nst_1.png",
-        period: "Oct 2018 - Dec 2018",
+        period: "Oct - Dec 2018",
         title: "Neural Style Transfer: Analysis and Improvement",
         subtitle: "Foundations of AI course, NEU",
         keywords: "CNN, VGG, Neural Style Transfer",
@@ -44,7 +44,7 @@ const ProjectsDetails = [
     }, {
         id : "001",
         img_src : "images/rge_screenshot.webp",
-        period: "Apr 2018 - July 2018",
+        period: "Apr - July 2018",
         title: "Inventory showcase/management Android app",
         keywords: "Android, Firebase authentication, node js, express js, mongoDB",
         content: "Built android apps for SMEs to showcase and manage inventory. Used Firebase for user sign in and authentication, stored data in MongoDB Atlas with the REST APIs being served by a node JS server",
