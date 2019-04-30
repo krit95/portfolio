@@ -24,7 +24,7 @@ class Navbar extends Component {
                         <li><NavLink to = "/worknedu">Work and Education</NavLink></li>
                         <li><NavLink to = "/projects">Projects</NavLink></li>
                         <li><NavLink to = "/skills">Skills</NavLink></li>
-                        <li><a className = "hoverable rounded-edges hover-highlight padding-top-5" href = "res/files/resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer">
+                        <li><a className = "hoverable rounded-edges hover-highlight padding-top-5" to = "res/files/resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer">
                             <i className = "material-icons">file_download</i>
                         </a>
                         </li>
@@ -36,9 +36,9 @@ class Navbar extends Component {
                         <li><NavLink className = "sidenav-close" to = "/projects">Projects</NavLink></li>
                         <li><NavLink className = "sidenav-close" to = "/skills">Skills</NavLink></li>
                         <li>
-                            <NavLink className = "sidenav-close" to = "res/files/resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer">
-                            <i className = "material-icons">file_download</i>
-                        </NavLink></li>
+                            <a className = "sidenav-close" href = "res/files/resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer">
+                            Download resume<i className = "material-icons right">file_download</i>
+                        </a></li>
                     </ul>
                 </div>
             </nav>
