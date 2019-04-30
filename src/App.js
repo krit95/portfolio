@@ -20,7 +20,11 @@ class App extends Component {
               <Route path = "/worknedu" component = {WorkAndEducation} />
               <Route path = "/projects" component = {Projects} />
               <Route path = "/skills" component = {Skills} />
-              <Route path = "/*" component = {NotFound} />
+              <Route path = "/res/files/resume.pdf" render = {() => {
+                return (
+                <a href = "res/files/resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer" />
+              )}} />
+              <Route path = "/" component = {NotFound} />
             </Switch>
           </div>
           <Contact />

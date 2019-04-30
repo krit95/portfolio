@@ -12,7 +12,7 @@ const WorkNEduDetails = [
         ]
     }, {
         id : "002",
-        type: "education",
+        type: "school",
         period: "Sept 2018 - Present",
         title: "Northeastern University, Boston",
         subtitle: "Master of Science in Computer Science",
@@ -34,7 +34,7 @@ const WorkNEduDetails = [
         ]
     }, {
         id : "004",
-        type: "education",
+        type: "school",
         period: "Aug 2013 - May 2017",
         title: "Birla Institute of Technology and Science(BITS) Pilani",
         subtitle: "B.E. (Hons.) in Electrical and Electronics Engineering",

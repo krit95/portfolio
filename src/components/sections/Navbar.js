@@ -24,7 +24,7 @@ class Navbar extends Component {
                         <li><NavLink to = "/worknedu">Work and Education</NavLink></li>
                         <li><NavLink to = "/projects">Projects</NavLink></li>
                         <li><NavLink to = "/skills">Skills</NavLink></li>
-                        <li><a className = "hoverable rounded-edges hover-highlight padding-top-5" to = "res/files/resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer">
+                        <li><a className = "hoverable rounded-edges hover-highlight padding-top-5" href = "res/files/resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer">
                             <i className = "material-icons">file_download</i>
                         </a>
                         </li>

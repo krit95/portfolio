@@ -12,8 +12,14 @@ const WorkAndEducation = () => {
                 dateInnerStyle = {{ background : itemColor }}
                 style = {{ color: itemColor }}
             >
-            <div className="hoverable padding-20 curved-edges">
-                <h5 className = "grey-text text-darken-4">{ item.title }</h5>
+            <div className="card hoverable padding-20 curved-edges">
+                {/* <div className="card-image">
+                <img className="card-img" src = { item.img_src } alt = "project screenshot"/>
+                </div> */}
+                <div className = "card-title grey-text text-darken-4">
+                    <i className="material-icons grey-text text-darken-2 right small">{ item.type }</i>
+                    { item.title }
+                </div>
                 <h6 className = "grey-text text-darken-3">{ item.subtitle }</h6>
                 { 
                     item.secondary_text ? <p className = "grey-text text-darken-3">{item.secondary_text}</p> : null
@@ -27,7 +33,7 @@ const WorkAndEducation = () => {
                         })
                     }
                 </ul>
-            </div>
+                </div>
             </TimelineItem>
         )
     });
