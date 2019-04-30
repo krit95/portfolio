@@ -1,7 +1,7 @@
 const ProjectsDetails = [
     {
         id : "004",
-        img_src : "images/rts_1.png",
+        img_src : "res/images/rts_1.png",
         period: "Mar - Apr 2019",
         title: "Resource and Colony Management Simulator",
         subtitle: "Game AI course, NEU",
@@ -15,7 +15,7 @@ const ProjectsDetails = [
         ]
     }, {
         id : "003",
-        img_src : "images/emergency_caller_1.jpg",
+        img_src : "res/images/emergency_caller_1.jpg",
         period: "Feb 2019",
         title: "Emergency Caller",
         subtitle: "Brickhack V, RIT, NY",
@@ -29,7 +29,7 @@ const ProjectsDetails = [
         ]
     }, {
         id : "002",
-        img_src : "images/nst_1.png",
+        img_src : "res/images/nst_1.png",
         period: "Oct - Dec 2018",
         title: "Neural Style Transfer: Analysis and Improvement",
         subtitle: "Foundations of AI course, NEU",
@@ -43,7 +43,7 @@ const ProjectsDetails = [
         ]
     }, {
         id : "001",
-        img_src : "images/rge_screenshot.webp",
+        img_src : "res/images/rge_screenshot.webp",
         period: "Apr - July 2018",
         title: "Inventory showcase/management Android app",
         keywords: "Android, Firebase authentication, node js, express js, mongoDB",

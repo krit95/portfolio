@@ -1,6 +1,6 @@
 import React from 'react';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
-import ProjectsDetails from './details/ProjectsDetails';
+import ProjectsDetails from '../details/ProjectsDetails';
 
 
 const Projects = () => {

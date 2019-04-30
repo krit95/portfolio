@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutDetails from './details/AboutDetails';
+import AboutDetails from '../details/AboutDetails';
 
 const About =() => {
     const { img_src, subtitle, content, post_script } = AboutDetails;

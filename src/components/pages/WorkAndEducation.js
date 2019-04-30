@@ -1,6 +1,7 @@
 import React from 'react';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
-import WorkNEduDetails from './details/WorkNEduDetails';
+import WorkNEduDetails from '../details/WorkNEduDetails';
+
 const WorkAndEducation = () => {
     const WorkEduList = WorkNEduDetails.map(item => {
         const itemColor = item.type === "work" ? "#e86971" : "#0277bd";

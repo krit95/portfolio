@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
-import About from './components/About';
-import WorkAndEducation from './components/WorkAndEducation';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Contact from './components/Contact';
-import NotFound from './components/NotFound';
+import About from './components/pages/About';
+import WorkAndEducation from './components/pages/WorkAndEducation';
+import Projects from './components/pages/Projects';
+import Skills from './components/pages/Skills';
+import NotFound from './components/pages/NotFound';
+import Contact from './components/sections/Contact';
+import Navbar from './components/sections/Navbar';
 
 class App extends Component {
   render() {

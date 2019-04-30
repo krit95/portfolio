@@ -66,6 +66,18 @@ const WorkNEduDetails = [
             "Created and managed SQL database schemas for app data",
             "Built web crawler to scrape, collate and store data using sqlite and BeautifulSoup4(bs4) libraries in python"
         ]
+    }, {
+        id : "007",
+        type: "work",
+        period: "May - July 2015",
+        title: "Indian Red Cross Society, New Delhi, India",
+        subtitle: "Software Development Intern",
+        secondary_text: "Django, HTML5, CSS3, js, sqlite, python, TkInter",
+        content: [
+            "Developed website for data collection using HTML5, CSS3 and JS",
+            "Developed the back-end using Django and SQL Database",
+            "Developed User Interface using Python for searching and printing relevant data"
+        ]
     }
 ]
 

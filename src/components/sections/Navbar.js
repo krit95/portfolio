@@ -16,7 +16,7 @@ class Navbar extends Component {
         return (
             <nav className = "nav-wrapper theme-bg sticky-nav">
                 <div className = "container">
-                    <ul><li><NavLink to = "/" className = "brand-logo">Krit Goyal</NavLink></li></ul>
+                    <NavLink to = "/" className = "brand-logo">Krit Goyal</NavLink>
                     <a href="#" data-target="slide-out" className = "sidenav-trigger"><i className = "material-icons">menu</i></a>
                     <div className="right">
                         <ul className = "hide-on-med-and-down">
@@ -24,7 +24,7 @@ class Navbar extends Component {
                         <li><NavLink to = "/worknedu">Work and Education</NavLink></li>
                         <li><NavLink to = "/projects">Projects</NavLink></li>
                         <li><NavLink to = "/skills">Skills</NavLink></li>
-                        <li><NavLink className = "hoverable rounded-edges hover-highlight padding-top-5" to = "resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer">
+                        <li><NavLink className = "hoverable rounded-edges hover-highlight padding-top-5" to = "res/files/resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer">
                             <i className = "material-icons">file_download</i>
                         </NavLink>
                         </li>
@@ -36,7 +36,7 @@ class Navbar extends Component {
                         <li><NavLink className = "sidenav-close" to = "/projects">Projects</NavLink></li>
                         <li><NavLink className = "sidenav-close" to = "/skills">Skills</NavLink></li>
                         <li>
-                            <NavLink className = "sidenav-close" to = "resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer">
+                            <NavLink className = "sidenav-close" to = "res/files/resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer">
                             <i className = "material-icons">file_download</i>
                         </NavLink></li>
                     </ul>

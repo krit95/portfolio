@@ -1,5 +1,5 @@
 import React from 'react';
-import SkillsDetails from './details/SkillsDetails';
+import SkillsDetails from '../details/SkillsDetails';
 
 const Skills = () => {
     const SkillsBlocks = SkillsDetails.map(categoryItem => {

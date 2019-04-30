@@ -5,7 +5,7 @@ class NotFound extends Component {
         return (
             <div className = "container">
                 <h1 className = "center red-text darken-text-5">404</h1>
-                <h4 className = "content center">You shall not pass!</h4>
+                <h4 className = "content teal-text center">You shall not pass!</h4>
             </div>
         )
     }
