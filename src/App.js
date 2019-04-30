@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch} from 'react-router-dom';
+import { HashRouter, Route, Switch} from 'react-router-dom';
 import About from './components/pages/About';
 import WorkAndEducation from './components/pages/WorkAndEducation';
 import Projects from './components/pages/Projects';
@@ -11,7 +11,7 @@ import Navbar from './components/sections/Navbar';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
         <Navbar />
         <div className = "main-content grey lighten-4">
@@ -25,7 +25,7 @@ class App extends Component {
           </div>
           <Contact />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
