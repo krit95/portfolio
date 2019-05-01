@@ -61,6 +61,10 @@ code {
   background: #37474f;
 }
 
+.margin-20 {
+  padding: 10px;
+}
+
 .hover-highlight :hover{
   color: lightgrey;
 }

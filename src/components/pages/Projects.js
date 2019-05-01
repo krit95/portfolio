@@ -29,7 +29,7 @@ const Projects = () => {
                             {
                                 project.links.map(link => {
                                     return (
-                                        <p key = {link.display_text}><a className = "orange-text text-darken-4 focusable" href={ link.url } target = "_blank" rel="noopener noreferrer">{ link.display_text }</a></p>
+                                        <p key = {link.display_text}><a className = "waves-effect orange-text text-darken-4 focusable" href={ link.url } target = "_blank" rel="noopener noreferrer">{ link.display_text }</a></p>
                                     )
                                 })
                             }
