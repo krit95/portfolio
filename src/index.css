@@ -50,12 +50,15 @@ code {
   overflow: hidden;
 }
 
-.theme-bg {
-  background: #37474f;
+.small-img {
+  object-fit: contain;
+  width:80px;
+  height:80px;
+  overflow: hidden;
 }
 
-.margin-20 {
-  padding: 10px;
+.theme-bg {
+  background: #37474f;
 }
 
 .hover-highlight :hover{
@@ -65,6 +68,10 @@ code {
 .padding-top-left-20 {
   padding-top: 20px;
   padding-left: 20px;
+}
+
+.padding-10 {
+  padding: 10px;
 }
 
 .padding-20 {
