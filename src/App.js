@@ -3,10 +3,11 @@ import { HashRouter, Route, Switch} from 'react-router-dom';
 import About from './components/pages/About';
 import WorkAndEducation from './components/pages/WorkAndEducation';
 import Projects from './components/pages/Projects';
+import ProjectPage from './components/pages/ProjectPage';
 import Skills from './components/pages/Skills';
 import NotFound from './components/pages/NotFound';
-import Contact from './components/sections/Contact';
-import Navbar from './components/sections/Navbar';
+import Contact from './components/layout/Contact';
+import Navbar from './components/layout/Navbar';
 
 class App extends Component {
   render() {
@@ -16,9 +17,10 @@ class App extends Component {
         <Navbar />
         <div className = "main-content grey lighten-4">
             <Switch>
-              <Route exact path = "/" component = {About} />
-              <Route path = "/worknedu" component = {WorkAndEducation} />
-              <Route path = "/projects" component = {Projects} />
+              <Route exact path = "/" component = { About } />
+              <Route path = "/worknedu" component = { WorkAndEducation } />
+              <Route exact path = "/projects" component = { Projects } />
+              {/* <Route path = "/projects/:proj_id" component = { ProjectPage } /> */}
               <Route path = "/skills" component = {Skills} />
               <Route path = "/res/files/resume.pdf" render = {() => {
                 return (

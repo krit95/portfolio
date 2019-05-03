@@ -1,31 +1,32 @@
 import React from 'react';
-import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 import ProjectsDetails from '../details/ProjectsDetails';
-
+import { NavLink} from 'react-router-dom';
 
 const Projects = () => {
     const ProjectsList = ProjectsDetails.map(project => {
         return (
-            <TimelineItem
-                    key={project.id}
-                    dateText = { project.period }
-                    dateInnerStyle = {{background: '#00695c' }}
-                    style = {{ color: '#00695c' }}
-                >
-                <div className="card">
-                    <div className="card-image">
-                        <img className="card-img" src = { project.img_src } alt = "project screenshot"/>
+                <div className="card horizontal" key = { project.id }>
+                    <div className="card-image card-img valign-wrapper">
+                    {/* <NavLink to = {"/projects/" + project.id}> */}
+                        <img className = "hoverable z-depth-1" src = { project.img_src[0] } alt = "project screenshot"/>
+                    {/* </NavLink> */}
                     </div>
                     <div className = "card-stacked">
-                        <div className="padding-top-left-20">
-                            <div className="card-title teal-text text-darken-1">{project.title}</div>
+                        <div className="padding-20">
+                            <div className="card-title teal-text text-darken-1">
+                                {/* <NavLink to = {"/projects/" + project.id}> */}
+                                    {project.title}
+                                {/* </NavLink> */}
+                            </div>
                             <div className="teal-text text-darken-4">{project.subtitle}</div>
-                            <div className="red-text text-darken-4"><b>Keywords</b>: {project.keywords}</div>
+                            <div className="blue-text text-darken-4"><b>Keywords</b>: {project.keywords}</div>
+                            <div className="red-text text-darken-4"><b>Tools</b>: {project.tools}</div>
                         </div>
                         <div className="card-content">
                             <p>{project.content}</p>
                         </div>
                         <div className="card-action">
+                        <div className="teal-text text-darken-2 text-bold right">{ project.period }</div>
                             {
                                 project.links.map(link => {
                                     return (
@@ -36,13 +37,12 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </TimelineItem>
         )
     });
     return (
-        <Timeline lineColor={'#bdbdbd'}>
+        <div className = "container padding-40">
             { ProjectsList }
-        </Timeline>
+        </div>
     )
 }
 

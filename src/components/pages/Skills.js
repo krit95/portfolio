@@ -5,7 +5,7 @@ const Skills = () => {
     const SkillsBlocks = SkillsDetails.map(categoryItem => {
         return (
             <div key = {categoryItem.id} className="container card grey lighten-3 hoverable curved-edges col l5 offset-l1">
-                    <h4 className="card-title grey-text text-darken-2">
+                    <h4 className="teal-text text-darken-2">
                         <b>{ categoryItem.category_name }</b>
                     </h4>
                     <div className="card-content">
@@ -14,11 +14,14 @@ const Skills = () => {
                             const skillClass = skill.level ? "determinate" : "indeterminate";
                             return (
                                 <div key = { skill.id }>
-                                    <h4 className="teal-text">
+                                    <div className = "">
+                                    <img src = { skill.logo } className = "skill-img" alt = { skill.name }/>
+                                    {/* <h4 className="teal-text col l2">
                                         { skill.name }
-                                    </h4>
+                                    </h4> */}
+                                    </div>
                                     <div  className = "progress">
-                                        <div className = {skillClass} style={{width: skill.level, background: "#424242", color: "red"}}></div>
+                                        <div className = {skillClass} style={{width: skill.level, background: "teal", color: "red"}}></div>
                                     </div>
                                 </div>
                             )

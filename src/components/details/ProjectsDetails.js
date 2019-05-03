@@ -1,11 +1,15 @@
 const ProjectsDetails = [
     {
-        id : "004",
-        img_src : "res/images/rts_1.png",
+        id : "4",
+        img_src : [
+            "res/images/rts_1.png",
+            "res/images/nst_1.png"
+        ],
         period: "Mar - Apr 2019",
         title: "Resource and Colony Management Simulator",
         subtitle: "Game AI course, NEU",
-        keywords: "A*, Search-based classical planner, Iterative Depth A*, Memory Bound A*, Unity, C#",
+        keywords: "A*, Search-based classical planner, Iterative Depth A*, Memory Bound A*",
+        tools: "Unity, C#",
         content: "Developed an AI that can build a plan to get to a target resources stockpile and income. Also built a small resource management game for the AI to play.\nUI built using Unity, scripting in C#.",
         links: [
             {
@@ -14,12 +18,15 @@ const ProjectsDetails = [
             }
         ]
     }, {
-        id : "003",
-        img_src : "res/images/emergency_caller_1.jpg",
+        id : "3",
+        img_src : [
+            "res/images/emergency_caller_1.jpg"
+        ],
         period: "Feb 2019",
         title: "Emergency Caller",
         subtitle: "Brickhack V, RIT, NY",
-        keywords: "Android, FCM, node js, express js",
+        keywords: "Android, FCM, node js, express js, mongoDB",
+        tools: "Android Studio, Firebase console, Mongo Compass",
         content: "Built Emergency calling android app which rings callee phone even if on silent/vibrate by leveraging Firebase Cloud Messaging",
         links: [
             {
@@ -28,12 +35,15 @@ const ProjectsDetails = [
             }
         ]
     }, {
-        id : "002",
-        img_src : "res/images/nst_1.png",
+        id : "2",
+        img_src : [
+            "res/images/nst_1.png"
+        ],
         period: "Oct - Dec 2018",
         title: "Neural Style Transfer: Analysis and Improvement",
         subtitle: "Foundations of AI course, NEU",
-        keywords: "CNN, VGG, Neural Style Transfer",
+        keywords: "CNN, VGG, Neural Style Transfer, Tensorflow",
+        tools: "Google colabs",
         content: "Studied, analyzed and reduced loss of neural style transfer using VGG network introduced by Gatys et. al.",
         links: [
             {
@@ -42,16 +52,28 @@ const ProjectsDetails = [
             }
         ]
     }, {
-        id : "001",
-        img_src : "res/images/rge_screenshot.webp",
+        id : "1",
+        img_src : [
+            "res/images/rge_1.webp",
+            "res/images/rge_2.webp",
+            "res/images/pp_1.webp",
+            "res/images/sltfr_1.webp"
+        ],
         period: "Apr - July 2018",
         title: "Inventory showcase/management Android app",
         keywords: "Android, Firebase authentication, node js, express js, mongoDB",
+        tools: "Android Studio, Firebase console, Mongo Compass",
         content: "Built android apps for SMEs to showcase and manage inventory. Used Firebase for user sign in and authentication, stored data in MongoDB Atlas with the REST APIs being served by a node JS server",
         links: [
             {
-                display_text: "PLAY STORE LINK",
+                display_text: "R.G. Enterprises",
                 url: "https://play.google.com/store/apps/details?id=com.tiklyo.bpih.rge"
+            }, {
+                display_text: "Phoenix Pharmaceuticals",
+                url: "https://play.google.com/store/apps/details?id=com.tiklyo.bpih.pp"
+            }, {
+                display_text: "Salutifer",
+                url: "https://play.google.com/store/apps/details?id=com.tiklyo.bpih.sltfr"
             }
         ]
     }, 

@@ -13,6 +13,12 @@ code {
     monospace;
 }
 
+blockquote{
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid orange; /* Just change the color value and that's it*/
+}
+
 .main-content {
   display: flex;
   min-height: 100vh;
@@ -36,9 +42,18 @@ code {
   text-justify: inter-word;
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
 .card-img {
-  object-fit: cover;
-  height:200px;
+  object-fit: contain;
+  width: 300px;
+  max-height:400px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   overflow: hidden;
 }
 
@@ -50,7 +65,26 @@ code {
   overflow: hidden;
 }
 
+.slider .slides {
+  width: 100%;
+  height: 100%;
+}
+
+.slider .slides .project-img {
+  /* max-width: 500px; */
+  width: auto;
+  margin: auto auto;
+}
+
 .small-img {
+  object-fit: contain;
+  width:80px;
+  height:80px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.skill-img {
   object-fit: contain;
   width:80px;
   height:80px;
@@ -63,6 +97,10 @@ code {
 
 .margin-20 {
   padding: 10px;
+}
+
+.margin-40 {
+  margin-top : 40px;
 }
 
 .hover-highlight :hover{
