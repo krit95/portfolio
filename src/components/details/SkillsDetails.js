@@ -68,35 +68,57 @@ const SkillsDetails = [
         ]
     }, {
         id: "4",
-        category_name: "Others",
+        category_name: "Distributed Systems",
         skills: [
             {
                 id: "4_1",
-                name: "git",
-                logo : "res/images/git.png",
-                level: "80%"
-            }, {
-                id: "4_2",
-                name: "Firebase",
-                logo : "res/images/firebase.png",
-                level: "60%"
-            }, {
-                id: "4_3",
                 name: "Hadoop",
                 logo : "res/images/hadoop.png",
                 level: "60%"
             }, {
-                id: "4_4",
+                id: "4_2",
                 name: "Spark",
                 logo : "res/images/spark.png",
                 level: "60%"
             }, {
-                id: "4_5",
+                id: "4_3",
                 name: "AWS",
                 logo : "res/images/aws.png",
                 level: "60%"
+            }
+        ]
+    }, {
+        id: "5",
+        category_name: "Database",
+        skills: [
+            {
+                id: "5_1",
+                name: "MySQL",
+                logo : "res/images/mysql.svg",
+                level: "80%"
             }, {
-                id: "4_6",
+                id: "5_2",
+                name: "Firebase",
+                logo : "res/images/firebase.png",
+                level: "60%"
+            }, {
+                id: "5_3",
+                name: "MongoDB",
+                logo : "res/images/mongodb.png",
+                level: "60%"
+            }
+        ]
+    }, {
+        id: "6",
+        category_name: "Others",
+        skills: [
+            {
+                id: "6_1",
+                name: "git",
+                logo : "res/images/git.png",
+                level: "80%"
+            }, {
+                id: "6_2",
                 name: "Unity",
                 logo : "res/images/unity.png",
                 level: "60%"
