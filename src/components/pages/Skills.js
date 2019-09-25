@@ -8,23 +8,24 @@ const Skills = () => {
                     <h4 className="teal-text text-darken-2">
                         <b>{ categoryItem.category_name }</b>
                     </h4>
-                    <div className="card-content">
+                    <div className="card-content padding-80" >
                     {
                         categoryItem.skills.map(skill => {
                             const skillClass = skill.level ? "determinate" : "indeterminate";
                             return (
-                                <div key = { skill.id }>
-                                    <div className = "">
-                                    <img src = { skill.logo } className = "skill-img" alt = { skill.name }/>
+                                <img key = { skill.id } src = { skill.logo } className = "skill-img" alt = { skill.name }/>
+                            )
+                                {/* <div > */}
+                                    {/* <div className = ""> */}
+                                    
                                     {/* <h4 className="teal-text col l2">
                                         { skill.name }
                                     </h4> */}
-                                    </div>
-                                    <div  className = "progress">
+                                    {/* </div> */}
+                                    {/* <div  className = "progress">
                                         <div className = {skillClass} style={{width: skill.level, background: "teal", color: "red"}}></div>
-                                    </div>
-                                </div>
-                            )
+                                    </div> */}
+                                {/* </div> */}
                         })
                     }
                     </div>

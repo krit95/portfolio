@@ -1,5 +1,23 @@
 const ProjectsDetails = [
     {
+        id : "5",
+        img_src : [
+            "res/images/speedup_plot.png",
+            "res/images/ghc_1.png"
+        ],
+        period: "Jun - Aug 2019",
+        title: "Optimizing compiler inlining with Machine Learning",
+        subtitle: "Data Mining Techniques, NEU",
+        keywords: "Haskell, GHC, NEAT-python, Genetic Algorithms, Neural Network",
+        tools: "GHC, Linux, python3",
+        content: "Modified NEAT-python to model and explore topologies for deep Neural Networks, execute our modified Glasgow Haskell Compiler(GHC), and benchmark using NoFib",
+        links: [
+            {
+                display_text: "SOURCE CODE",
+                url: "https://github.com/krit95/GHC_Inlining_GA_NN"
+            }
+        ]
+    }, {
         id : "4",
         img_src : [
             "res/images/rts_1.png",

@@ -6,11 +6,14 @@ const WorkNEduDetails = [
         logo : "res/images/mhealth.png",
         link : "https://www.mhealthgroup.org/",
         title: "mHealth Research Group, Boston MA",
-        subtitle: "Graduate Research Assistant, Smartphone Programmer",
-        secondary_text: "Android Wear 2.0, Firebase, Wearables and sensors",
+        subtitle: "Graduate Research Assistant, Android Developer",
+        secondary_text: "Android Wear 2.0, Firebase, Wearables and sensors, DBSCAN, Differential Encoding",
         content: [
-            "Developed Android Wear and Mobile OS applications designed for Micro Ecological Momentary Assessments(μEMA)",
-            "Collected data using in-built sensors, MessageApi for inter-device communication, and firebase for database, storage and authentication"
+            "In a team of 5, developed intelligent Android apps for phone and smartwatch to collect info, study and constructively affect user behavior",
+            "Used self-report methods, and device sensors like accelerometer and heart rate monitor for data collection",
+            "Made extensive use of Firebase for database, storage, authentication and crash analysis",
+            "Leveraged machine learning for user data analysis and build context-sensitivity, DBSCAN for location clustering",
+            "Reduced data storage and transfer over network by 65% using differential encoding"
         ]
     }, {
         id : "002",
@@ -22,7 +25,7 @@ const WorkNEduDetails = [
         subtitle: "Master of Science in Computer Science",
         secondary_text: "GPA: 4.0 / 4.0",
         content: [
-            "Related courses: Programming Design Paradigm, Algorithms, Foundations of AI, Game AI"
+            "Related courses: Large-Scale Parallel Data Processing, Information Retrieval, Data Mining Techniques, Programming Design Paradigm, Algorithms, Foundations of AI, Game AI"
         ]
     }, {
         id : "003",

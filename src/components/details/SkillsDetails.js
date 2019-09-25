@@ -18,6 +18,11 @@ const SkillsDetails = [
                 name: "C#",
                 logo : "res/images/c_sharp.png",
                 level: "70%"
+            }, {
+                id: "1_4",
+                name: "Scala",
+                logo : "res/images/scala.png",
+                level: "50%"
             }
         ]
     }, {
@@ -54,11 +59,12 @@ const SkillsDetails = [
                 name: "Android",
                 logo : "res/images/android.png",
                 level: "90%"
-            }, {
-                id: "3_2",
-                name: "React-native",
-                logo : "res/images/react-native.webp",
             }
+            // , {
+            //     id: "3_2",
+            //     name: "React-native",
+            //     logo : "res/images/react-native.webp",
+            // }
         ]
     }, {
         id: "4",
@@ -71,6 +77,26 @@ const SkillsDetails = [
                 level: "80%"
             }, {
                 id: "4_2",
+                name: "Firebase",
+                logo : "res/images/firebase.png",
+                level: "60%"
+            }, {
+                id: "4_3",
+                name: "Hadoop",
+                logo : "res/images/hadoop.png",
+                level: "60%"
+            }, {
+                id: "4_4",
+                name: "Spark",
+                logo : "res/images/spark.png",
+                level: "60%"
+            }, {
+                id: "4_5",
+                name: "AWS",
+                logo : "res/images/aws.png",
+                level: "60%"
+            }, {
+                id: "4_6",
                 name: "Unity",
                 logo : "res/images/unity.png",
                 level: "60%"
