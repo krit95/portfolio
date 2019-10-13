@@ -26,6 +26,10 @@ class App extends Component {
                 return (
                 <a href = "res/files/resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer" />
               )}} />
+              <Route path = "/res/files/sitemap.txt" render = {() => {
+                return (
+                <a href = "res/files/sitemap.txt" title = "View sitemap" target = "_blank" rel="noopener noreferrer" />
+              )}} />
               <Route path = "/" component = {NotFound} />
             </Switch>
           </div>
