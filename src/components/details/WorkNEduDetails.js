@@ -9,9 +9,9 @@ const WorkNEduDetails = [
         subtitle: "Graduate Research Assistant, Android Developer",
         secondary_text: "Android Wear 2.0, Firebase, Wearables and sensors, DBSCAN, Differential Encoding",
         content: [
-            "In a team of 5, developed intelligent Android apps for phone and smartwatch to collect info, study and constructively affect user behavior",
-            "Used self-report methods, and device sensors like accelerometer and heart rate monitor for data collection",
-            "Made extensive use of Firebase for database, storage, authentication and crash analysis",
+            "In a team of 5, developed intelligent Android apps for phone and smartwatch to collect info, study and constructively affect user behavior of over 200 participants",
+            "Used self-report methods, and device sensors like accelerometer and heart rate monitor for 24x7 data collection",
+            "Made extensive use of Firebase for database, storage, authentication and crash analysis of TBs of data",
             "Leveraged machine learning for user data analysis and build context-sensitivity, DBSCAN for location clustering",
             "Reduced data storage and transfer over network by 65% using differential encoding"
         ]
@@ -37,9 +37,9 @@ const WorkNEduDetails = [
         subtitle: "Engineer I, Codec Team, Media Services",
         secondary_text: "Android, Google ML kit, Mobile Video/Audio codec, FFMPEG",
         content: [
-            "Developed POC for automatic camera mode selection in phone with Google’s ML kit",
-            "Created POC android app for in-place video editing using FFMPEG",
-            "Built POC for storage efficient image file format for Android with help of CMake and Nokia’s open source library"
+            "Supervised intern on design and development of Android app for auto camera mode selection with Google ML kit",
+            "Developed gesture driven android app for ad-hoc video editing using FFMPEG",
+            "Improved image storage efficiency by 50% with better encoding using CMake and Nokia HEVC library"
         ]
     }, {
         id : "004",
@@ -63,9 +63,9 @@ const WorkNEduDetails = [
         subtitle: "Software Development Intern",
         secondary_text: "REST APIs, Java, Oracle JET(knockout js, jQuery, jQuery UI, promise), ADF, Swagger",
         content: [
-            "Developed POC for Oracle JET integration with ADF for a faster, lighter and more responsive app UI",
-            "Harnessed the power of OracleJET, a Javascript library bundle, to implement ad-hoc web page generation",
-            "Deployed REST APIs using Java for new UI"
+            "Developed faster, lighter and more responsive app UI solution for Oracle Hyperion Planning",
+            "Used OracleJET, a Javascript library bundle, to implement ad-hoc web pages and visualization generation",
+            "Built and deployed secure Java REST APIs"
         ]
     }, {
         id : "006",
