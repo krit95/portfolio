@@ -6,20 +6,30 @@ const SkillsDetails = [
             {
                 id: "1_1",
                 name: "Java",
-                logo : "res/images/java.svg.png",
+                logo : "res/images/kotlin.png",
                 level: "90%"
             }, {
                 id: "1_2",
+                name: "Go",
+                logo : "res/images/golang.png",
+                level: "90%"
+            }, {
+                id: "1_3",
+                name: "Java",
+                logo : "res/images/java.svg.png",
+                level: "90%"
+            }, {
+                id: "1_4",
                 name: "Python",
                 logo : "res/images/python.svg.png",
                 level: "60%"
             }, {
-                id: "1_3",
+                id: "1_5",
                 name: "C#",
                 logo : "res/images/c_sharp.png",
                 level: "70%"
             }, {
-                id: "1_4",
+                id: "1_5",
                 name: "Scala",
                 logo : "res/images/scala.png",
                 level: "50%"
@@ -30,6 +40,16 @@ const SkillsDetails = [
         category_name: "Web Dev",
         skills: [
             {
+                id: "2_1",
+                name: "Typescript",
+                logo : "res/images/typescript.svg",
+                level: "90%"
+            }, {
+                id: "2_2",
+                name: "Vue.js",
+                logo : "res/images/vue.png",
+                level: "90%"
+            }, {
                 id: "2_3",
                 name: "HTML5",
                 logo : "res/images/html5.png",
@@ -40,11 +60,11 @@ const SkillsDetails = [
                 logo : "res/images/css3.svg.png",
                 level: "75%"
             }, {
-                id: "2_2",
+                id: "2_5",
                 name: "React",
                 logo : "res/images/react-redux.png",
             }, {
-                id: "2_1",
+                id: "2_6",
                 name: "PHP",
                 logo : "res/images/php.png",
                 level: "70%"
@@ -103,8 +123,18 @@ const SkillsDetails = [
                 level: "60%"
             }, {
                 id: "5_3",
+                name: "DynamoDB",
+                logo : "res/images/dynamodb.png",
+                level: "60%"
+            }, {
+                id: "5_4",
                 name: "MongoDB",
                 logo : "res/images/mongodb.png",
+                level: "60%"
+            }, {
+                id: "5_5",
+                name: "SQLite",
+                logo : "res/images/sqlite.png",
                 level: "60%"
             }
         ]
@@ -114,11 +144,16 @@ const SkillsDetails = [
         skills: [
             {
                 id: "6_1",
+                name: "Docker",
+                logo : "res/images/docker.png",
+                level: "80%"
+            }, {
+                id: "6_2",
                 name: "git",
                 logo : "res/images/git.png",
                 level: "80%"
             }, {
-                id: "6_2",
+                id: "6_3",
                 name: "Unity",
                 logo : "res/images/unity.png",
                 level: "60%"

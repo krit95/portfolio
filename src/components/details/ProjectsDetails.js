@@ -1,5 +1,38 @@
 const ProjectsDetails = [
     {
+        id : "7",
+        img_src : [
+            "res/images/ydlay.png"
+        ],
+        period: "May 2020",
+        title: "YDlay",
+        keywords: "Android, AWS, Kotlin, Golang, Docker, MySQL, REST",
+        tools: "Android Studio, GoLand, AWS console + CLI, Docker",
+        content: "Built an order and inventory management android app from the ground up. Used Kotlin for frontend, Golang for backend, sqlite3 and MySQL db with redis caching. Deployed using AWS Elastic Beanstalk.",
+        links: [
+            {
+                display_text: "APP STORE",
+                url: "https://play.google.com/store/apps/details?id=com.tiklyo.ydlay"
+            }
+        ]
+    }, {
+        id : "6",
+        img_src : [
+            "res/images/workerb.png"
+        ],
+        period: "Jan - April 2020",
+        title: "workerB",
+        subtitle: "Backend developer",
+        keywords: "Golang, Docker, MySQL, REST, Redis",
+        tools: "GoLand, Docker",
+        content: "workerB is a browser automation platform. Its goal is to boost user productivity. I worked on the backend in golang. For local development and testing, we used docker containers to run MySQL database and DGraph.",
+        links: [
+            {
+                display_text: "DOCS",
+                url: "https://docs.workerb.io/"
+            }
+        ]
+    }, {
         id : "5",
         img_src : [
             "res/images/speedup_plot.png",
