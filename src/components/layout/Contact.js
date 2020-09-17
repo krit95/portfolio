@@ -11,8 +11,8 @@ class Contact extends Component {
                         <h5 className="white-text">Reach me @</h5>
                         <div className = "row center padding-40">
                             <div className="col l4 s12">
-                                <a href="mailto:goyal.kri@husky.neu.edu" target = "_blank" rel="noopener noreferrer"><i className="hoverable rounded-edges material-icons medium white-text">email</i></a>
-                                <br/><span className="white-text">goyal.kri@husky.neu.edu</span>
+                                <a href="mailto:krit.goyal95@gmail.com" target = "_blank" rel="noopener noreferrer"><i className="hoverable rounded-edges material-icons medium white-text">email</i></a>
+                                <br/><span className="white-text">krit.goyal95@gmail.com</span>
                             </div> 
                             {/* <div className="col l6 s12">
                                 <a href="https://goo.gl/maps/BMQaCwwZGupQ6jGA6" rel="noopener noreferrer" target="_blank"><i className="hoverable rounded-edges material-icons medium white-text">location_on</i></a>
@@ -33,7 +33,8 @@ class Contact extends Component {
                 </div>
                 <div className="footer-copyright">
                     <div className="container center">
-                    © 2019 Krit Goyal
+                    Last updated on Sept 17, 2020
+                    <br/> © 2019 Krit Goyal
                     </div>
                 </div>
             </footer>

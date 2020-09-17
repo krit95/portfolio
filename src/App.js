@@ -3,7 +3,7 @@ import { HashRouter, Route, Switch} from 'react-router-dom';
 import About from './components/pages/About';
 import WorkAndEducation from './components/pages/WorkAndEducation';
 import Projects from './components/pages/Projects';
-import ProjectPage from './components/pages/ProjectPage';
+// import ProjectPage from './components/pages/ProjectPage';
 import Skills from './components/pages/Skills';
 import NotFound from './components/pages/NotFound';
 import Contact from './components/layout/Contact';
