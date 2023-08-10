@@ -2,6 +2,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Deploy website to kritgoyal.com
+1. Commit and push changes to master
+2. Run from CLI:
+```
+$ npm run predeploy
+$ npm run deploy
+```
+3. Go to repository > Settings > Pages
+4. Update custom domain to "kritgoyal.com"
+5. Once DNS check completes, select `Enforce HTTPS` from just below that
+
+
 In the project directory, you can run:
 
 ### `npm start`
