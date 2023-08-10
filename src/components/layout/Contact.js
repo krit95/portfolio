@@ -13,7 +13,7 @@ class Contact extends Component {
                             <div className="col l4 s12">
                                 <a href="mailto:krit.goyal95@gmail.com" target = "_blank" rel="noopener noreferrer"><i className="hoverable rounded-edges material-icons medium white-text">email</i></a>
                                 <br/><span className="white-text">krit.goyal95@gmail.com</span>
-                            </div> 
+                            </div>
                             {/* <div className="col l6 s12">
                                 <a href="https://goo.gl/maps/BMQaCwwZGupQ6jGA6" rel="noopener noreferrer" target="_blank"><i className="hoverable rounded-edges material-icons medium white-text">location_on</i></a>
                                 <br/><span className="white-text">Boston, MA</span>
@@ -33,8 +33,7 @@ class Contact extends Component {
                 </div>
                 <div className="footer-copyright">
                     <div className="container center">
-                    Last updated on Sept 17, 2020
-                    <br/> © 2019 Krit Goyal
+                    Last updated on Aug 10, 2023
                     </div>
                 </div>
             </footer>

@@ -33,6 +33,11 @@ const SkillsDetails = [
                 name: "Scala",
                 logo : "res/images/scala.png",
                 level: "50%"
+            }, {
+                id: "1_6",
+                name: "Bash",
+                logo : "res/images/bash.jpeg",
+                level: "50%"
             }
         ]
     }, {
@@ -102,8 +107,8 @@ const SkillsDetails = [
                 level: "60%"
             }, {
                 id: "4_3",
-                name: "AWS",
-                logo : "res/images/aws.png",
+                name: "PySpark",
+                logo : "res/images/pyspark.png",
                 level: "60%"
             }
         ]
@@ -156,6 +161,16 @@ const SkillsDetails = [
                 id: "6_3",
                 name: "Unity",
                 logo : "res/images/unity.png",
+                level: "60%"
+            }, {
+                id: "6_4",
+                name: "AWS",
+                logo : "res/images/aws.png",
+                level: "60%"
+            }, {
+                id: "6_5",
+                name: "AWS CDK",
+                logo : "res/images/aws_cdk.png",
                 level: "60%"
             }
         ]
