@@ -139,7 +139,7 @@ const SkillsDetails = [
             }, {
                 id: "5_6",
                 name: "AWS Neptune Graph",
-                logo : "res/images/as_neptune.jpg",
+                logo : "res/images/aws_neptune.webp",
                 level: "60%"
             }
         ]
