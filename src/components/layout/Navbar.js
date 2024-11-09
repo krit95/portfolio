@@ -44,7 +44,7 @@ class Navbar extends Component {
                     <ul className = "sidenav" id="slide-out">
                         <li className = { this.state.index === 0 ? "active text-bold" : null } onClick = { () => this.handleClick(0) }><NavLink className = "sidenav-close waves-effect" title = "About" to = "/">About</NavLink></li>
                         <li className = { this.state.index === 1 ? "active text-bold" : null } onClick = { () => this.handleClick(1) }><NavLink className = "sidenav-close waves-effect" title = "Work and Education" to = "/worknedu">Work and Education</NavLink></li>
-                        <li className = { this.state.index === 2 ? "active text-bold" : null } onClick = { () => this.handleClick(2) }><NavLink className = "sidenav-close waves-effect" title = "Projects" to = "/projects">Projects</NavLink></li>
+                        <li className = { this.state.index === 2 ? "active text-bold" : null } onClick = { () => this.handleClick(2) }><NavLink className = "sidenav-close waves-effect" title = "Personal Projects" to = "/projects">Projects</NavLink></li>
                         <li className = { this.state.index === 3 ? "active text-bold" : null } onClick = { () => this.handleClick(3) }><NavLink className = "sidenav-close waves-effect" title = "Skills" to = "/skills">Skills</NavLink></li>
                         <li>
                             <a className = "sidenav-close" href = "res/files/resume.pdf" title = "Download resume" target = "_blank" rel="noopener noreferrer">

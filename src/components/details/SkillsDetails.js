@@ -85,11 +85,6 @@ const SkillsDetails = [
                 logo : "res/images/android.png",
                 level: "90%"
             }
-            // , {
-            //     id: "3_2",
-            //     name: "React-native",
-            //     logo : "res/images/react-native.webp",
-            // }
         ]
     }, {
         id: "4",
@@ -140,6 +135,11 @@ const SkillsDetails = [
                 id: "5_5",
                 name: "SQLite",
                 logo : "res/images/sqlite.png",
+                level: "60%"
+            }, {
+                id: "5_6",
+                name: "AWS Neptune Graph",
+                logo : "res/images/as_neptune.jpg",
                 level: "60%"
             }
         ]

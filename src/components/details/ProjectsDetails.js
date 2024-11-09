@@ -1,7 +1,7 @@
 const ProjectsDetails = [{
   id: "8",
   img_src: [
-    ""
+    "res/images/foci.jpg"
   ],
   period: "Jan 2021",
   title: "FOCI Research App",
@@ -10,7 +10,7 @@ const ProjectsDetails = [{
   content: "Developed Android app to monitor changes in cognition using data from smartphones in people with dementia, sleep apnea, and after a traumatic brain injury. Used in study by Maciej Kos (https://mkos.pl/). Leveraged Android API for location, screen state, app usage, etc. and Google Fit for activity recognition. Built an accessibility service to monitor user typing habits.",
   links: [{
     display_text: "Paper",
-    url: ""
+    url: "https://www.cognition.nu/about/"
   }]
 }, {
   id: "7",

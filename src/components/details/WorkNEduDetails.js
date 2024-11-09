@@ -4,13 +4,13 @@ const WorkNEduDetails = [
     type: "work",
     period: "Dec 2022 - Present",
     logo: "res/images/amazon.png",
-    link: "https://en.wikipedia.org/wiki/Graphiq",
-    title: "Amazon Alexa, Santa Barbara, CA",
-    subtitle: "SDE II, Alexa Knowledge Graph Vending | Graphiq Platform",
+    link: "https://aws.amazon.com/what-is/artificial-general-intelligence/",
+    title: "AGI, Santa Barbara, CA",
+    subtitle: "SDE II, Amazon Knowledge Graph Vending",
     secondary_text: "MapReduce, PySpark, AWS EMR, AWS Neptune, AWS CDK",
     content: [
-      "Developed transformation scripts utilizing PySpark to convert quads data into AWS Neptune compatible CSVs.",
-      "Significantly enhanced script efficiency, reducing execution time from over 40 hours to approximately 45 minutes",
+      "Developed PySpark scripts to process and ingest data into AWS Neptune, improving data pipeline efficiency by 90% for 100GB+ datasets in the Alexa Knowledge ecosystem.",
+      "Performed away team work where I leveraged my expertise to setup their pipelines and integrate with the rest of the services in the organization, reducing lead time by 75%",
       "Implemented integration of Background Jobs system with Graphiq Knowledge Sandboxes, facilitating local testing by Software Development Engineers (SDEs) and Knowledge Engineers (KEs).",
       "Successfully migrated over 150 Background Jobs from PHP7 to PHP8, aligning with the latest standards and bolstering security measures.",
     ]
